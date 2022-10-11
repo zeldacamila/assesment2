@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-
 function connect() {
   const mongoUri = process.env.MONGO_URI;
   console.log(mongoUri)
